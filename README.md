@@ -1,21 +1,10 @@
 ###  Author: Jack Stethem
 ###  Date: 12/18/2024
 ###  Email: stethem.5@osu.edu
-###  Here is a step by step guide for how to organize new analysis code and properly utilize ANITA tools
-
-Before beginning work on this project, it is necessary to activate a shared conda environement and environment variables **every time you start up a new terminal**. This ensures that
-everyone is accessing the same version of ROOT, CMake, and ANITA analysis tools. You can activate all of these prerequisites with a simple command.
-
-source /fs/ess/PAS2159/HughesLab/setup.sh
-
-If you do not have access to this group, you will not be able to execute this script or utilize the ANITA installation!!!
 
 
-
-
-
-**INSTRUCTIONS FOR CREATING A BRANCH AND DOING ANALYSIS**
-You should create a branch each time you want to do a bit of analysis (for example make some weighted energy plots, or run ICEMC at 10E17). Here are the exact steps you need to take to do this.
+**INSTRUCTIONS FOR CREATING A BRANCH AND DOING WORK**
+You should create a branch each time you want to do a bit of work on the game. Here are the exact steps you need to take to do this.
 
 1. Decide the task you are working on.
 2. Change to the directory in which this repo is located in your local space.
